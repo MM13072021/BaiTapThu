@@ -31,6 +31,6 @@ namespace LamThuu
         {
             textBox1.Text = "";
             MessageBox.Show("Da xoa: "+textBox1.Text);
-        }
+        } 
     }
 }
