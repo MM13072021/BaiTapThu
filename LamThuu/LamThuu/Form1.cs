@@ -20,6 +20,10 @@ namespace LamThuu
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello: " + textBox1.Text);
+            if (checkBox1.Checked)
+                MessageBox.Show("Gioi tinh: " + checkBox1.Checked);
+            else
+                MessageBox.Show("Gioi tinh: " + checkBox2.Checked);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
