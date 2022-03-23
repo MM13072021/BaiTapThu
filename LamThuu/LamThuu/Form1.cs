@@ -26,5 +26,11 @@ namespace LamThuu
         {
 
         }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            MessageBox.Show("Da xoa: "+textBox1.Text);
+        }
     }
 }
